@@ -12,9 +12,7 @@ const AboutMe = () => {
           <Col>
             <p className="para1">ABOUT ME</p>
             <p className="para2">
-              Good lights it very to above. Days image to sea. Over there
-              seasons and spirit beast in. Greater bearing creepeth very behold
-              fourth night morning seed moved.
+              I am a UI/Front end developer and a UpSC apirant.
             </p>
             <p className="para3">
               02<sub className="sub1">Years of Experience</sub>
