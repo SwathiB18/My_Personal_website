@@ -1,0 +1,13 @@
+.carouselPara1 {
+  margin-top: 80px;
+  font-size: 16px;
+
+  color: #ea5267;
+  text-transform: uppercase;
+}
+/* @media screen and (max-width: 768px) {
+  .CarouselContainer {
+    padding: 30px;
+    margin-top: 30px;
+  }
+} */

@@ -1,0 +1,93 @@
+.port1 {
+  color: #ea5267;
+  font-size: 15px;
+  margin-top: 80px;
+  margin-left: 40px;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 14px;
+}
+.paraport {
+  color: #0a0b4d;
+  line-height: 48px;
+  font-weight: 400;
+  margin-left: 40px;
+  position: relative;
+  z-index: 1;
+  margin-top: 22px;
+}
+.port2 {
+  color: #ea5267;
+  font-size: 15px;
+  margin-top: 80px;
+  margin-left: 40px;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: center;
+}
+.paraport2 {
+  color: #0a0b4d;
+  line-height: 48px;
+  font-weight: 300;
+  margin-left: 40px;
+  position: relative;
+  z-index: 1;
+  margin-top: 22px;
+  text-align: center;
+}
+
+.portIcon {
+  background: grey;
+  text-align: center;
+  width: 62px;
+  height: 62px;
+  box-sizing: border-box;
+  line-height: 62px;
+  margin-top: 30px;
+
+  margin-left: 140px;
+  border-radius: 50%;
+  color: #0d0f5b;
+}
+@media screen and (max-width: 768px) {
+  .port1 {
+    color: #ea5267;
+    font-size: 15px;
+    margin-top: 80px;
+    margin-left: 40px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 14px;
+  }
+  .paraport {
+    color: #0a0b4d;
+    line-height: 48px;
+    font-weight: 400;
+    margin-left: 20px;
+    position: relative;
+    z-index: 1;
+    margin-top: 22px;
+  }
+  .portPic1 {
+    height: 270px;
+    width: 280px;
+  }
+  .portPic5 {
+    height: 270px;
+    width: 280px;
+  }
+  .portIcon {
+    background: grey;
+    text-align: center;
+    width: 52px;
+    height: 52px;
+    box-sizing: border-box;
+    line-height: 52px;
+    margin-top: 30px;
+    font-size: small;
+    margin-left: 70px;
+    border-radius: 50%;
+    color: #0d0f5b;
+  }
+}

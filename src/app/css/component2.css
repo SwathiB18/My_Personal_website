@@ -1,0 +1,63 @@
+.cardText1 {
+  margin-top: 290px;
+  margin-left: 80px;
+  font-size: 30px;
+}
+.cardText2 {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 80px;
+  line-height: 1.3;
+}
+.btn2 {
+  display: inline-block;
+  padding: 15px;
+  border: none;
+  margin-left: 80px;
+  margin-top: 20px;
+  border-radius: 0px;
+  background-color: #ea5267;
+  font-size: 14px;
+  color: #fff;
+}
+.column1 {
+  width: 600px;
+  height: 600px;
+  margin-top: 80px;
+}
+@media screen and (max-width: 768px) {
+  .cardText1 {
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 15px;
+  }
+  .cardText2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    line-height: 1.3;
+  }
+  .btn2 {
+    display: inline-block;
+    padding: 7px;
+    border: none;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 0px;
+    background-color: #ea5267;
+    font-size: 7px;
+    color: #fff;
+  }
+  .column1 {
+    width: 150px;
+    height: 150px;
+    margin-top: 0px;
+  }
+}
+.sub1 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 28px;
+  font-size: 15px;
+  margin-bottom: 0px;
+  color: #fff;
+}
