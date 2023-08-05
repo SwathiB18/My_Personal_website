@@ -39,9 +39,15 @@ const LastComponent = () => {
             </p>
           </Col>
           <Col>
-            <Button size="lg" className="btn3 ">
-              Download CV
-            </Button>
+            <a
+              href=" https://1drv.ms/w/s!Av_kMhlgtWNFgQppn5e2p53zSKBv?e=25IDUh"
+              target="_blank"
+            >
+              <Button size="lg" className="btn3 ">
+                Download CV
+              </Button>
+            </a>
+
             <div className="socialmedia">
               <Navbar.Text>
                 <a href="https://www.facebook.com/swathi.challapalli.3">
