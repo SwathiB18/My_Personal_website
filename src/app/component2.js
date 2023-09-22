@@ -13,7 +13,7 @@ const Component2 = () => {
 
   return (
     <>
-      <ImagePreload src="/bg2.jpg" />
+      <ImagePreload src="/Swa.jpeg" />
       <Card className="text-white" style={{ margin: "-5px" }}>
         {isClient && (
           <Card.Img
@@ -35,7 +35,7 @@ const Component2 = () => {
             </Col>
             <Col>
               <Image
-                src="/pic1.jpg"
+                src="/Swa.jpeg"
                 roundedCircle
                 className="column1"
               />
