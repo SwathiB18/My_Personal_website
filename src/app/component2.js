@@ -35,7 +35,7 @@ const Component2 = () => {
             </Col>
             <Col>
               <Image
-                src="https://scontent.fnag1-2.fna.fbcdn.net/v/t1.6435-9/76706748_148580756497476_4013168075028299776_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=174925&_nc_ohc=SSrhDlTrShkAX-ulPqc&_nc_ht=scontent.fnag1-2.fna&oh=00_AfBjvwapwXBxTyZlmeWVZYfzdWDepwL_RYkSVUDX8KH38Q&oe=64F5A2AC"
+                src="/pic1.jpg"
                 roundedCircle
                 className="column1"
               />
