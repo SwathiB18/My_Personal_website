@@ -28,7 +28,7 @@ const AboutMe = () => {
                 </h5>
                 <h5 className="para4">SQA Engineer</h5>
                 <h5 className="para5">
-                  At tearafast Networks from Dec 2022 to feb 2022
+                  At tearafast Networks from Dec 2022 to Feb 2023
                 </h5>
               </Col>
               <Col>

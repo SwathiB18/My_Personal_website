@@ -100,8 +100,7 @@ const CarouselComponent = () => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-      {/* </Row>
-      </Container> */}
+     
     </>
   );
 };

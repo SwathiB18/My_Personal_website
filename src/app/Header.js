@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-
+import "./css/header.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
   Container,
@@ -33,8 +33,8 @@ const Header = () => {
             />
           </Navbar.Brand>
           <Navbar.Toggle
-            style={{ color: "white" }}
-            bg="white"
+            
+            className="custom-toggler-icon"
             aria-controls="basic-navbar-nav"
           />
           <NavbarCollapse style={{ color: "white" }} id="basic-navbar-nav">
