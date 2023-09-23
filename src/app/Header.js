@@ -71,10 +71,7 @@ const Header = () => {
                 icon={faInstagram}
               />
 
-              <FontAwesomeIcon
-                style={{ color: "white", marginLeft: "16px" }}
-                icon={faTwitter}
-              />
+              
             </Navbar.Text>
           </NavbarCollapse>
         </Container>
