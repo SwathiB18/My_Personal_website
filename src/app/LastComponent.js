@@ -67,7 +67,10 @@ const LastComponent = () => {
                   icon={faInstagram}
                 />
 
-               
+                <FontAwesomeIcon
+                  style={{ color: "white", marginLeft: "16px" }}
+                  icon={faTwitter}
+                />
               </Navbar.Text>
             </div>
           </Col>
