@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import "./css/header.css";
+import {Link} from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
   Container,
@@ -39,18 +40,23 @@ const Header = () => {
           />
           <NavbarCollapse style={{ color: "white" }} id="basic-navbar-nav">
             <Nav className="me-auto">
-              <NavLink style={{ color: "white" }} href="#home">
+            <NavLink >
+              <Link to="/" style={{ color: "white",textDecoration:"none",  }} >
                 Home
+              </Link>
               </NavLink>
-              <NavLink style={{ color: "white" }} href="#link">
-                About
+             <NavLink >
+             <Link to="/about" style={{ color: "white",textDecoration:"none", }}> About</Link>
               </NavLink>
-              <NavLink style={{ color: "white" }} href="#link">
+              <NavLink>
+              <Link style={{ color: "white",textDecoration:"none", }} >
                 Portfolio
+              </Link>
               </NavLink>
-
-              <NavLink style={{ color: "white" }} href="#link">
+              <NavLink>
+              <Link to="/contact" style={{ color: "white",textDecoration:"none",  }} href="#link">
                 Contact
+              </Link>
               </NavLink>
             </Nav>
             <Navbar.Text>
