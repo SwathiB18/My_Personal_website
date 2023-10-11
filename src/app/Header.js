@@ -23,7 +23,7 @@ import {
 const Header = () => {
   return (
     <div>
-      <Navbar expand="lg" style={{ background: "#0a0b4d", color: "white" }}>
+      <Navbar expand="lg" style={{ background: "#0a0b4d", color: "white" }} >
         <Container>
           <Navbar.Brand href="#home">
             <img
@@ -52,7 +52,7 @@ const Header = () => {
         
               
              
-              <Link href="/" style={{textDecoration:'none',color:"white",padding:5}}>  Portfolio
+              <Link href="/" style={{textDecoration:'none',color:"white",padding:5}}>  Blog
              </Link>
             
              

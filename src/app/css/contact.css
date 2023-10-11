@@ -1,10 +1,26 @@
 .map-responsive{
 overflow: hidden;
+padding-top: 20px;
 
 position: relative;
 height: 0;
 }
-
+.btn6 {
+    display: inline-block;
+    padding: 15px;
+    border: none;
+    margin-left: 20px;
+    margin-top: 40px;
+    border-radius: 0px;
+    background-color: #ea5267;
+    font-size: 14px;
+    color: #fff;
+  }
 .map-responsive iframe{
-    left:0;top:0;border:0;height: 100%;width:100%;position:inherit;
+    left:0;top:0;border:0;height: 100%;width:100%;position:inherit; 
 }
+.breadcrumb{color: #fff;
+    font-size: 80px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-transform: capitalize;}
