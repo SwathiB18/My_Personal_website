@@ -25,7 +25,7 @@ const CarouselComponent = () => {
     setIndex(selectedIndex);
   };
   return (
-    <>
+    <div>
       <Carousel slide="true" activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
           <ExampleCarouselImage text="First slide" />
@@ -101,7 +101,7 @@ const CarouselComponent = () => {
         </Carousel.Item>
       </Carousel>
      
-    </>
+    </div>
   );
 };
 

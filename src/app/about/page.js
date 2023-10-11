@@ -1,19 +1,21 @@
+"use client"
 import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Header from "./Header";
-import Component2 from "./component2";
-import AboutMe from "./Aboutme";
-import LastComponent from "./LastComponent";
+import Header from "../Header";
+import Component2 from "../component2";
+import AboutMe from "../Aboutme";
+import LastComponent from "../LastComponent";
 import {Row,Col,Container} from 'react-bootstrap';
-import './css/AboutPage.css'
-const AboutPage=()=>{
+import '../css/AboutPage.css'
+const About=()=>{
     const ImagePreload = ({ src }) => (
         <link rel="preload" as="image" href={src} />
       );
     
     return(<>
         <Header/>
-        <Component2/> <AboutMe/>
+        <Component2/> 
+        <AboutMe/>
 <Container style={{marginTop:90,}}>
     <Row>
         <Col><p className="phil">MY PHILOSOPHY</p>
@@ -34,4 +36,4 @@ const AboutPage=()=>{
        
     )
 }
-export default AboutPage;
+export default About;

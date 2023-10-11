@@ -1,7 +1,8 @@
 "use client";
 import React from "react";
 import "./css/header.css";
-import {Link} from 'react-router-dom';
+import Link from 'next/link'
+ 
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
   Container,
@@ -21,7 +22,7 @@ import {
 
 const Header = () => {
   return (
-    <header>
+    <div>
       <Navbar expand="lg" style={{ background: "#0a0b4d", color: "white" }}>
         <Container>
           <Navbar.Brand href="#home">
@@ -40,38 +41,40 @@ const Header = () => {
           />
           <NavbarCollapse style={{ color: "white" }} id="basic-navbar-nav">
             <Nav className="me-auto">
-            <NavLink >
-              <Link to="/" style={{ color: "white",textDecoration:"none",  }} >
-                Home
-              </Link>
-              </NavLink>
-             <NavLink >
-             <Link to="/about" style={{ color: "white",textDecoration:"none", }}> About</Link>
-              </NavLink>
-              <NavLink>
-              <Link style={{ color: "white",textDecoration:"none", }} >
-                Portfolio
-              </Link>
-              </NavLink>
-              <NavLink>
-              <Link to="/contact" style={{ color: "white",textDecoration:"none",  }} href="#link">
-                Contact
-              </Link>
-              </NavLink>
+        
+            <Link href="/" style={{textDecoration:'none',color:"white",padding:5}}>  Home 
+             </Link>
+              
+                
+        
+             <Link href="/about" style={{textDecoration:'none',color:"white",padding:5}}>  About 
+             </Link>
+        
+              
+             
+              <Link href="/" style={{textDecoration:'none',color:"white",padding:5}}>  Portfolio
+             </Link>
+            
+             
+           
+              <Link href="/contact" style={{textDecoration:'none',color:"white",padding:5}}>  Contact
+             </Link>
+            
+            
             </Nav>
             <Navbar.Text>
-              <a href="https://www.facebook.com/swathi.challapalli.3">
+              <Link href="https://www.facebook.com/swathi.challapalli.3">
                 <FontAwesomeIcon
                   style={{ color: "white" }}
                   icon={faSquareFacebook}
                 />
-              </a>
-              <a href="https://www.linkedin.com/in/swathi-ind/">
+              </Link>
+              <Link href="https://www.linkedin.com/in/swathi-ind/">
                 <FontAwesomeIcon
                   style={{ color: "white", marginLeft: "16px" }}
                   icon={faLinkedin}
                 />
-              </a>
+              </Link>
               <FontAwesomeIcon
                 style={{ color: "white", marginLeft: "16px" }}
                 icon={faInstagram}
@@ -85,7 +88,7 @@ const Header = () => {
           </NavbarCollapse>
         </Container>
       </Navbar>
-    </header>
+    </div>
   );
 };
 export default Header;

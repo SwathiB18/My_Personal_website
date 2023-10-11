@@ -1,6 +1,6 @@
 "use client"
 import React from 'react';
-import './css/contact.css'
+import '../css/contact.css'
 const ContactPage=()=>{
     return(
         <>

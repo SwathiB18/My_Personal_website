@@ -17,6 +17,7 @@ import {
   faTwitter,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
+import Link from "next/link";
 const ImagePreload = ({ src }) => <link rel="preload" as="image" href={src} />;
 
 const LastComponent = () => {
@@ -26,7 +27,7 @@ const LastComponent = () => {
     setIsClient(true);
   }, []);
   return (
-    <>
+    <div>
       <Container fluid="true" style={{ background: "#0a0b4d", padding: 40 }}>
         <Row>
           <Col>
@@ -39,29 +40,29 @@ const LastComponent = () => {
             </p>
           </Col>
           <Col>
-            <a
+            <Link
               href=" https://1drv.ms/w/s!Av_kMhlgtWNFgQppn5e2p53zSKBv?e=25IDUh"
               target="_blank"
             >
               <Button size="lg" className="btn3 ">
                 Download CV
               </Button>
-            </a>
+            </Link>
 
             <div className="socialmedia">
               <Navbar.Text>
-                <a href="https://www.facebook.com/swathi.challapalli.3">
+                <Link href="https://www.facebook.com/swathi.challapalli.3">
                   <FontAwesomeIcon
                     style={{ color: "white" }}
                     icon={faSquareFacebook}
                   />
-                </a>
-                <a href="https://www.linkedin.com/in/swathi-ind/">
+                </Link>
+                <Link href="https://www.linkedin.com/in/swathi-ind/">
                   <FontAwesomeIcon
                     style={{ color: "white", marginLeft: "16px" }}
                     icon={faLinkedin}
                   />
-                </a>
+                </Link>
                 <FontAwesomeIcon
                   style={{ color: "white", marginLeft: "16px" }}
                   icon={faInstagram}
@@ -81,7 +82,7 @@ const LastComponent = () => {
           </p>
         </div>
       </Container>
-    </>
+    </div>
   );
 };
 

@@ -12,7 +12,7 @@ const Component2 = () => {
   }, []);
 
   return (
-    <>
+    <div>
       <ImagePreload src="/Swa.jpeg" />
       <Card className="text-white" style={{ margin: "-5px" }}>
         {isClient && (
@@ -43,7 +43,7 @@ const Component2 = () => {
           </Row>
         </Card.ImgOverlay>
       </Card>
-    </>
+    </div>
   );
 };
 

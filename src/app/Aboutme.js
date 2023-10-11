@@ -6,7 +6,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const AboutMe = () => {
   return (
-    <>
+    <div>
       <Container fluid="true" style={{ background: "#0a0b4d", padding: 40 }}>
         <Row>
           <Col>
@@ -41,7 +41,7 @@ const AboutMe = () => {
           </Col>
         </Row>
       </Container>
-    </>
+    </div>
   );
 };
 export default AboutMe;

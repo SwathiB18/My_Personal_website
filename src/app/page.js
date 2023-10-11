@@ -1,36 +1,24 @@
-"use client"
+"use client";
+import React from "react";
 
-  
-    import { BrowserRouter ,Routes, Route, } from 'react-router-dom';
+import "bootstrap/dist/css/bootstrap.min.css";
 
-
-  
-
-
-
-import Home from "./Home";
-import AboutPage from "./AboutPage";
-import ContactPage from './Contact';
-
-
-
-    const App=()=>{
-    
-    
-     
-      
-    return(
-      <BrowserRouter>
-      <Routes>
-         <Route path="/" element={<Home/>} />
-         <Route path="/about" element={<AboutPage/>} />
-        <Route path="/contact" element={<ContactPage/>}/>
-         </Routes>
-     </BrowserRouter>
-      
-       
-       
-    
-    );
-      }
-export default App ;
+import Componet2 from "./component2";
+import Header from "./Header";
+import AboutMe from "./Aboutme";
+import Portfolio from "./Portfolio";
+import CarouselComponent from "./CarouselComponent";
+import LastComponent from "./LastComponent";
+const Home = () => {
+  return (
+    <div>
+      <Header />
+      <Componet2></Componet2>
+      <AboutMe></AboutMe>
+      <Portfolio />
+      <CarouselComponent></CarouselComponent>
+      <LastComponent />
+    </div>
+  );
+};
+export default Home;
