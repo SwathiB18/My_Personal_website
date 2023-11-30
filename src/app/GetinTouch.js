@@ -106,7 +106,7 @@ const GetInTouch=()=>{
     fontSize: 16,
     padding:10,
 
-    color: "#2a2a2a"}}>Mon to Fri 9am to 6 am</Col>
+    color: "#2a2a2a"}}>Mon to Fri 9am to 6pm</Col>
          
          </Row>
          <Row style={{display:'block',boxSizing:'border-box',fontWeight: 400,

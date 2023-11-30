@@ -58,9 +58,10 @@ const Portfolio = () => {
             <Card.Body>
               <Card.Title>UI Developer</Card.Title>
               <Card.Text>
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+              Welcome to my corner of the web! I'm passionate about crafting
+          intuitive user interfaces and delving into the world of React.
+          With expertise in HTML, CSS, JavaScript, and React, I'm dedicated
+          to creating immersive web experiences that resonate with users.
               </Card.Text>
             </Card.Body>
             <Card.Footer>
@@ -72,8 +73,10 @@ const Portfolio = () => {
             <Card.Body>
               <Card.Title>React js developer</Card.Title>
               <Card.Text>
-                This card has supporting text below as a natural lead-in to
-                additional content.{" "}
+              Welcome to my corner of the web! I'm passionate about crafting
+          intuitive user interfaces and delving into the world of React.
+          With expertise in HTML, CSS, JavaScript, and React, I'm dedicated
+          to creating immersive web experiences that resonate with users.{" "}
               </Card.Text>
             </Card.Body>
             <Card.Footer>
@@ -85,9 +88,10 @@ const Portfolio = () => {
             <Card.Body>
               <Card.Title>Tutor</Card.Title>
               <Card.Text>
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This card has even longer content
-                than the first to show that equal height action.
+              Beyond coding, I'm committed to sharing my knowledge and empowering
+          aspiring developers through tutoring sessions. I believe in not just
+          teaching programming languages but nurturing problem-solving skills
+          and a mindset of innovation.
               </Card.Text>
             </Card.Body>
             <Card.Footer>
