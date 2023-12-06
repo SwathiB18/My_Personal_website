@@ -87,7 +87,7 @@ const GetInTouch=()=>{
     fontSize: 16,
     padding:10,
 
-    color: "#2a2a2a"}}>Hyderabd,India</span></Col>
+    color: "#2a2a2a"}}>Hyderabad,India</span></Col>
           <Col style={{
     fontSize: 16,
     padding:10,
@@ -106,7 +106,7 @@ const GetInTouch=()=>{
     fontSize: 16,
     padding:10,
 
-    color: "#2a2a2a"}}>Mon to Fri 9am to 6pmIST</Col>
+    color: "#2a2a2a"}}>Mon to Fri 9am to 6pm IST</Col>
          
          </Row>
          <Row style={{display:'block',boxSizing:'border-box',fontWeight: 400,
