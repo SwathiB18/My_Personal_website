@@ -26,9 +26,19 @@ const LastComponent = () => {
   useEffect(() => {
     setIsClient(true);
   }, []);
+  const backgroundImageUrl = '/bg3.jpg'; 
+  const divStyle = {
+    backgroundImage: `url(${backgroundImageUrl})`,
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    width: '100%',
+    
+    padding: 40// Set the height as per your requirement
+    // You can add more styles here if needed
+  };
   return (
     <div>
-      <Container fluid="true" style={{ background: "#0a0b4d", padding: 40 }}>
+      <Container fluid="true" style={{background:'#0a0b4d',padding:40}} >
         <Row>
           <Col>
             <p className="para1">DiScuss your Project now</p>
