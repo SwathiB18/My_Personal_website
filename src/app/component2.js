@@ -17,8 +17,8 @@ const Component2 = () => {
       <Card className="text-white" style={{ margin: "-5px" }}>
         {isClient && (
           <Card.Img
-            src="/bg2.jpg"
-            alt="Card image"
+            src="/bgOne.jpg"
+            alt="Card image" 
             style={{ borderRadius: "0px", margin: "0px" }}
           />
         )}
