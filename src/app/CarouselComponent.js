@@ -79,7 +79,7 @@ const CarouselComponent = () => {
                 <p className="carouselPara1">Word from my clients</p>{" "}
                 <h3>Exceptional Mentorship</h3>
                 <p>
-                  “Not only is Swathi a top-notch developer, but they are also an exceptional tutor. Their ability to explain complex concepts in a clear and understandable manner has been invaluable. Thank you for your guidance!"
+                  “Not only is Swathi a top-notch developer, but they are also an exceptional tutor. Their ability to explain complex concepts in a clear and understandable manner has been invaluable.Tq!"
                 </p>
                 <div>
                   <Image

@@ -37,7 +37,7 @@ const GetInTouch=()=>{
          
          <textarea
            required
-          
+          style={{background:'white'}}
            type="text"
            placeholder="Enter Message"
           

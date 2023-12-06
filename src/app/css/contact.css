@@ -24,3 +24,14 @@ height: 0;
     font-weight: 500;
     margin-bottom: 10px;
     text-transform: capitalize;}
+    @media screen and (max-width: 768px) {.btn6 {
+      display: inline-block;
+      padding: 15px;
+      border: none;
+      margin-left: 20px;
+      margin-top: 20px;
+      border-radius: 0px;
+      background-color: #ea5267;
+      font-size: 14px;
+      color: #fff;
+    }}
