@@ -17,7 +17,7 @@ const Component2 = () => {
       <Card className="text-white" style={{ margin: "-5px" }}>
         {isClient && (
           <Card.Img
-            src="/bgOne.jpg"
+            src="/bluebg.jpeg"
             alt="Card image" 
             style={{ borderRadius: "0px", margin: "0px" }}
           />
@@ -39,6 +39,7 @@ const Component2 = () => {
                 roundedCircle
                 className="column1"
               />
+              
             </Col>
           </Row>
         </Card.ImgOverlay>

@@ -21,8 +21,8 @@
   color: #fff;
 }
 .column1 {
-  width: 600px;
-  height: 600px;
+  width: 500px;
+  height: 500px;
   margin-top: 80px;
 }
 @media screen and (max-width: 768px) {

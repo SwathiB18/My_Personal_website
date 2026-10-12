@@ -52,7 +52,7 @@ const Header = () => {
         
               
              
-              <Link href="/" style={{textDecoration:'none',color:"white",padding:5}}>  Blog
+              <Link href="/blog" style={{textDecoration:'none',color:"white",padding:5}}>  Blog
              </Link>
             
              

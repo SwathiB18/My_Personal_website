@@ -7,7 +7,7 @@ const ExampleCarouselImage = ({ text }) => {
     <>
       <img
         className="d-block w-100"
-        src="/bg3.jpg"
+        src="/bluebg.jpeg"
         alt="${text} slide"
         style={{ height: "300px" }}
       />

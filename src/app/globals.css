@@ -87,7 +87,12 @@ body {
 body {
   color: rgb(var(--foreground-rgb));
   background: white;
-  font-family: "Montserrat", sans-serif;
+
+  font-family: 'Inter', sans-serif;
+  /* Optional: Smooth out font rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
 
 }
 

@@ -42,9 +42,9 @@ const Portfolio = () => {
         </Row>
       </Container>
       <div>
-        <p className="port2">My portfolio</p>
+        <p className="port2">My Roles & interests</p>
         <h2 className="paraport2">
-          Take a look around some of my awesome works
+          Take a look around some of my roles and Interests
         </h2>
       </div>
       <Container style={{ marginTop: "80px" }}>
@@ -71,12 +71,10 @@ const Portfolio = () => {
           <Card>
             <FontAwesomeIcon icon={faReact} className="portIcon" />
             <Card.Body>
-              <Card.Title>React js developer</Card.Title>
+              <Card.Title>Freelancer</Card.Title>
               <Card.Text>
-              Welcome to my corner of the web! I'm passionate about crafting
-          intuitive user interfaces and delving into the world of React.
-          With expertise in HTML, CSS, JavaScript, and React, I'm dedicated
-          to creating immersive web experiences that resonate with users.{" "}
+             I am interested in freelancing in website creation and content creation.
+             I am always interested to showcase and build my skills.I did so many videos by creating content in youtube{" "}
               </Card.Text>
             </Card.Body>
             <Card.Footer>

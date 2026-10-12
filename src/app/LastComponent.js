@@ -88,7 +88,7 @@ const LastComponent = () => {
         </Row>
         <div style={{ marginTop: 120, textAlign: "center" }}>
           <p className="text-white" style={{}}>
-            Copyright ©2023 All rights reserved
+            Copyright ©2026 All rights reserved
           </p>
         </div>
       </Container>
