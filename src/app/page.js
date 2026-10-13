@@ -1,6 +1,6 @@
 "use client"
 import React, { useState, useEffect } from 'react';
-
+import { FaReact } from "react-icons/fa";
 export default function App() {
   const [darkMode, setDarkMode] = useState(true);
   const [activeProjectFilter, setActiveProjectFilter] = useState('all');
@@ -134,7 +134,7 @@ const textClass = darkMode ? 'text-light':'text-dark'
         <div className="container">
           <a className="navbar-brand d-flex align-items-center gap-2 fw-bold fs-4" href="#home">
             <span className="p-2 rounded-circle bg-gradient-cosmic text-white d-inline-flex align-items-center justify-content-center" style={{ width: '38px', height: '38px' }}>
-              <i className="bi bi-code-slash"></i>
+              <i className="">SB</i>
             </span>
             <span className={darkMode ? 'text-white' : 'text-dark'}>
              <span className="text-gradient-cosmic">Dev&Trainer</span>
@@ -181,7 +181,7 @@ const textClass = darkMode ? 'text-light':'text-dark'
             <div className="col-lg-7">
               <div className="d-inline-flex align-items-center gap-2 px-3 py-1 rounded-pill bg-gradient-cosmic bg-opacity-10 text-white mb-3 border border-secondary">
                 <i className="bi bi-stars text-warning"></i>
-                <span className="small fw-semibold">Frontend Developer • Astro Creator • Language Educator</span>
+                <span className="small fw-semibold">Frontend Developer • Content Creator • Language Educator</span>
               </div>
               
               <h1 className="display-4 fw-bold mb-3 lh-sm">
@@ -199,7 +199,7 @@ const textClass = darkMode ? 'text-light':'text-dark'
                 <a href="#astrology" className="btn btn-danger px-4 py-2 rounded-pill fw-semibold d-inline-flex align-items-center gap-2 shadow-sm">
                   <i className="bi bi-youtube"></i> Watch YouTube
                 </a>
-                <a href="https://www.superprof.co.in/dashboard.html" target="_blank" className="btn btn-success px-4 py-2 rounded-pill fw-semibold d-inline-flex align-items-center gap-2 shadow-sm">
+                <a href="#telugu"  className="btn btn-success px-4 py-2 rounded-pill fw-semibold d-inline-flex align-items-center gap-2 shadow-sm">
                   <i className="bi bi-book"></i> Learn Telugu
                 </a>
               </div>
@@ -281,7 +281,7 @@ const textClass = darkMode ? 'text-light':'text-dark'
                 <div className="p-3 bg-purple bg-opacity-10 rounded-3 d-inline-block mb-3" style={{ width: 'fit-content', color: '#a855f7' }}>
                   <i className="bi bi-moon-stars fs-2"></i>
                 </div>
-                <h4 className="fw-bold mb-2">Astrology Content Creator</h4>
+                <h4 className="fw-bold mb-2">Content Creator</h4>
                 <p className="small ${textClass} mb-0">
                   Creator of a popular astrology YouTube channel. I decipher complex planetary movements, Vedic horoscopes, and transits into engaging visual content for thousands of subscribers.
                 </p>
@@ -321,7 +321,7 @@ const textClass = darkMode ? 'text-light':'text-dark'
                 onClick={() => setActiveSkillCategory('astro')}
                 className={`btn btn-sm rounded-pill px-4 py-2 ${activeSkillCategory === 'astro' ? 'btn-primary bg-gradient-cosmic border-0' : (darkMode ? 'btn-outline-light' : 'btn-outline-dark')}`}
               >
-                Astrology & YouTube
+                 YouTube
               </button>
               <button 
                 onClick={() => setActiveSkillCategory('telugu')}
@@ -337,7 +337,7 @@ const textClass = darkMode ? 'text-light':'text-dark'
               <>
                 <div className="col-md-6 col-lg-3">
                   <div className={`card ${cardBgClass} p-3 rounded-3 text-center h-100`}>
-                    <i className="bi bi-react text-info fs-1 mb-2"></i>
+                  <i className="text-info fs-1 mb-2"><FaReact  /></i> 
                     <h5 className="fw-bold">React.js</h5>
                     <p className="small ${textClass} mb-0">Hooks, State, Context API, JSX, React Router</p>
                   </div>
@@ -599,7 +599,7 @@ const textClass = darkMode ? 'text-light':'text-dark'
                   </div>
                 </div>
 
-                <a href="https://www.superprof.co.in/dashboard.html/my-profile/" target="_blank" className="btn btn-light rounded-pill px-4 py-2 fw-semibold text-dark w-100 text-center">
+                <a href="https://www.superprof.co.in/ir/3345854-a6dd27/" target="_blank" className="btn btn-light rounded-pill px-4 py-2 fw-semibold text-dark w-100 text-center">
                   Book Free Intro Session
                 </a>
               </div>
@@ -735,10 +735,14 @@ const textClass = darkMode ? 'text-light':'text-dark'
       <footer className={`py-4 border-top ${darkMode ? 'border-secondary bg-black' : 'border-light bg-light'}`}>
         <div className="container text-center">
           <span className="fw-bold fs-5">
-            Swathi<span className="text-gradient-cosmic">Bommaraju</span>
+            Swathi<span className="text-gradient-cosmic" style={{marginLeft:5}} >Bommaraju</span>
           </span>
+      <p className= {'small ${textClass} mb-3 mt-1'} >Contact number<span style={{marginLeft:3}}>:+91 8187038020</span>
+       
+      </p>
+       <p className= {'small ${textClass} mb-3 mt-1'} >Email ID:<span style={{marginLeft:3}}>swathibommaraju27@gmail.com</span></p>
           <p className={'small ${textClass} mb-3 mt-1'}>
-            React Frontend Developer • Astrology YouTube Content Creator • Telugu Teacher
+            React Frontend Developer • YouTube Content Creator • Telugu Teacher
           </p>
           <div className="d-flex justify-content-center gap-3 mb-3">
             <a href="https://github.com/SwathiB18" target="_blank" rel="noopener noreferrer" className={`btn btn-sm ${darkMode ? 'btn-outline-light' : 'btn-outline-dark'} rounded-circle`} title="GitHub">
